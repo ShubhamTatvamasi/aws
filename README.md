@@ -11,3 +11,12 @@ Test aws key access:
 ```bash
 aws iam get-user
 ```
+
+Check availability zones for a region:
+```bash
+aws ec2 describe-availability-zones \
+  --region us-west-1 \
+  --query 'AvailabilityZones[*].ZoneName' \
+  --output table
+```
+
