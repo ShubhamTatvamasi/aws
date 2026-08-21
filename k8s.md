@@ -26,7 +26,7 @@ EOF
 
 
 ```
-cat << EOF > ~/.aws/config
+cat << EOF > ~/.aws/credentials
 [default]
 aws_access_key_id = 898384F352206C8BA82C
 aws_secret_access_key = UMmJZtaQKcloqgfMmB8IgDjOK88Hu5E82lB3yRQR
