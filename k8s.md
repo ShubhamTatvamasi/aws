@@ -33,5 +33,9 @@ aws_secret_access_key = UMmJZtaQKcloqgfMmB8IgDjOK88Hu5E82lB3yRQR
 EOF
 ```
 
+Cleanup:
+```bash
+kubectl -n default delete pod aws-cli
+```
 
 
