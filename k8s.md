@@ -33,3 +33,11 @@ aws_secret_access_key = UMmJZtaQKcloqgfMmB8IgDjOK88Hu5E82lB3yRQR
 EOF
 ```
 
+
+---
+
+```bash
+kubectl -n rook-ceph port-forward svc/rook-ceph-mgr-dashboard 8443:8443
+```
+
+
